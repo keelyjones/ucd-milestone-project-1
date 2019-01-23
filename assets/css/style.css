@@ -1,3 +1,29 @@
+/*-----------------------------------------------------------Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:100,200,300,400,500,600,700|Playfair+Display:100,200,300,400,500,600,700');
+
+/*-----------------------------------------------------------Colors*/
+
+.bg-color-heading{
+    background-color: #f4f4f4;
+}
+
+.bg-color-logo{
+    background-color: #000000;
+}
+
+.bg-color-nav{
+    background-color: #e6f2ff;
+}
+.bg-color-about{
+    background-color: #e6f2ff;
+}
+
+/*--------------------------------------Special Paddings, Margins, Texts*/
+.uppercase{
+    text-transform: uppercase;
+}
+
+/*-------------------------------------------------------------Header*/
 header {
     margin: 0;
 }
@@ -6,20 +32,59 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
     margin-right: 0;
-}
-
-.no-padding {
-  padding-left: 0;
-  padding-right: 0;
+    margin-left: 0;
+    padding:  0;
 }
 
 .heading{
-    font-family: sans;
+    font-family: 'Playfair Display SC', serif;
     text-align: center;
+    font-weight: 400;
+    white-space: nowrap;
+    margin: auto;
+    border: none;
+    padding: 5px;
+    color: #000000;
 }
 
-.uppercase{
-    text-transform: uppercase;
+
+/*-------------------------------------------------------------Navigation */
+
+#nav {
+    text-align: center;
+    margin: 0;
 }
+
+#nav li {
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu-item{
+    height: 35px;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 100;
+    font-size: 18px;
+    text-transform: uppercase;
+ 
+}
+
+.menu-item a{
+    display:block;
+    text-decoration: none !important;
+    color: #001933 !important ;
+}
+    
+/*----------------------Hover.css---------------------------*/
+
+.hvr-sweep-to-bottom:before{
+    background: rgba(0,0,0,0.3) !important;
+    height: 35px;
+}
+
+/*-------------------------------------------------------------Header Section*/
