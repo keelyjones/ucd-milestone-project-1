@@ -4,15 +4,15 @@
 /*-----------------------------------------------------------Colors*/
 
 .bg-color-heading{
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 }
 
-.bg-color-logo{
+.bg-color-black{
     background-color: #000000;
 }
 
 .bg-color-nav{
-    background-color: #e6f2ff;
+    background-color: #e5fff9;
 }
 .bg-color-about{
     background-color: #e6f2ff;
@@ -54,6 +54,7 @@ header {
 #nav {
     text-align: center;
     margin: 0;
+
 }
 
 #nav li {
@@ -79,12 +80,56 @@ header {
     text-decoration: none !important;
     color: #001933 !important ;
 }
-    
-/*----------------------Hover.css---------------------------*/
+/*------------------------Homepage-----*/
 
-.hvr-sweep-to-bottom:before{
-    background: rgba(0,0,0,0.3) !important;
-    height: 35px;
+@media(min-width: 767px){
+    
+.band-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 }
 
-/*-------------------------------------------------------------Header Section*/
+@media(max-width: 767px){
+    
+.band-image{
+    width: 100%;
+}
+}
+/*-------------------------------------------------------------Footer */
+
+footer{
+    min-height: 120px;
+    margin: 0;
+    background-color: #e5fff9;
+}
+
+#footer-details{
+    margin: 20px;
+    padding: 5px 0px 20px 0px;
+}
+
+.general-sub{
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 5px;
+}
+.fa-heart{
+    padding-left: 3px;
+}
+
+.footer-text{
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+
+.icon-style{
+    padding: 0;
+    font-size: 25px;
+    color: #8f8f8f;
+}
