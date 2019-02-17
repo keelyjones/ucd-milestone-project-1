@@ -215,11 +215,8 @@ header {
     text-align: center;
 }
 
-.form-style  {
+.form-style {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
     font-family: "Raleway", sans-serif; 
     font-size: 14px;
     font-weight: 200;
