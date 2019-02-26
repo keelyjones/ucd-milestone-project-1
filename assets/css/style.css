@@ -80,11 +80,6 @@ header {
     vertical-align: middle;
 }
 
-@media(max-width: 767px) { /*small screens*/
-    .menu-item {
-        max-height: 22px;
-    }
-}
 .nav-text {
     display:block;
     padding: 2px;
@@ -95,30 +90,7 @@ header {
     color: #000000 !important;
 }
 
-@media(max-width: 767px) { /*small screens*/
-    .nav-text {
-        font-size: 12px;
-    }
-}
 
-/*---------------------------------------------------------Homepage-----*/
-
-@media(min-width: 767px){ /*large screens*/
-    
-.band-image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
- }
-}
-
-@media(max-width: 767px){ /*small screens*/
-    
-.band-image{
-    width: 100%;
- }
-}
 
 /*------------------------------------------------------------About--------*/
 .about{
@@ -232,13 +204,17 @@ header {
 #emailHelp {
     font-size: 12px;
     font-family: "Raleway", sans-serif;
-    font-weight: 100;
+    font-weight: 200;
     padding: 8px;
     font-style: italic;
 }
 
 .form-button {
     margin-bottom: 40px;
+}
+
+.subscribe-text{
+    color: #856404;
 }
 /*-------------------------------------------------------------Footer */
 
@@ -276,7 +252,35 @@ footer{
     color: #FBF8F7;
 }
 
+
+/*------Media Queries-----*/
+
+@media(min-width: 767px){ /*large screens*/
+    
+.nav-text {
+        font-size: 12px;
+    }
+.band-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+ }
+
+.mailist-box{
+    margin-top: 50px;
+}
+}
+
 @media(max-width: 767px){ /*small screens*/
+    
+.band-image{
+    width: 100%;
+ }
+
+.menu-item {
+        max-height: 22px;
+    }
     
 #footer-details{
     text-align: center;

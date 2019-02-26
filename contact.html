@@ -46,14 +46,14 @@
     <section class="container-fluid">
         <div class="row">
             <div class="contact-text col-12 w-100">
-                <p>We would love to hear from you!</p>
+                <p class="lead">We would love to hear from you!</p>
                 <p>Drop us a line using the form below to enquire about booking Reverend Blue for your events, ticket enquiries, or just to say hello (!) and we will get in touch with you as soon as we can.</p>
             </div>
         </div>
         
     <form class="container-fluid form-style">
-        <div class="row">
-        <div class="col-12">
+    <div class="row">
+        <div class="col-12 col-md-6 offset-md-1">
                 <div class="form-group uppercase">
                     <label for="formGroupNameInput">Name:</label>
                     <input type="text" class="form-control uppercase" id="formNameInput" placeholder="Your Name">
@@ -78,7 +78,21 @@
                 </div>
                 <button type="submit" class="uppercase form-button btn btn-light">Send Message</button>
         </div>
+        <div class="col-12 col-md-4">
+                <div class="alert alert-warning mailist-box"><p >Want to subscribe to email updates? Pop your email address in below, and we will keep you up-to-date with news, and get exclusive early-bird access to our events!</p>
+                <div class="form-group">
+                    <label class="uppercase subscribe-text" for="formEmailInput">Email address:</label>
+                    <input type="email" class="form-control subscribe-text uppercase" id="formEmaiInput" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text subscribe-text">(We'll never share your email with anyone else.)</small>
+                <button type="submit" class="uppercase btn btn-warning">Subscribe</button>
+                </div>
+                </div>
         </div>
+
+            
+        </div>
+    </div>
+        
     </form>
     </section>
     
