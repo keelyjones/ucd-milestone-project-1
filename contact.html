@@ -2,45 +2,52 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <title>Reverend Blue</title>
 </head>
 
 <body>
-    <header class="container-fluid">
-        <a id="home" href="index.html">
-            <div class="row clearfix bg-color-black">
-                <div class="col-4 w-100 heading-text">Reverend</div>
-                <div class="col-4 heading-image">
-                    <img class="logo" src="/assets/images/Reverend Blue no text.jpg" alt="RB Logo">
+    <header>
+        <a class="plain" href="index.html">
+            <div class="row banner bg-color-black">
+                <div class="col heading-text">Reverend</div>
+                <div class="col heading-image">
+                    <img class="logo" src="/assets/images/ReverendBlueNoText.jpg" alt="RB Logo">
                 </div>
-                <div class="col-4 w-100 heading-text">Blue</div>
-            </div>
+                <div class="col heading-text">Blue</div>
+            </div>      
         </a>
-        <div class="row bg-color-nav clearfix">
-            <ul id="nav" class="list-inline w-100 justify-content-center">
-                <li class="col-12 col-md-2 hvr-grow menu-item">
-                    <a style="text-decoration:none" href="index.html" class="nav-text">Home</a>
-                </li>
-                <li class="col-12 col-md-2 hvr-grow menu-item">
-                    <a style="text-decoration:none" href="about.html" class="nav-text">About</a>
-                </li>
-                <li class="col-12 col-md-2 hvr-grow menu-item">
-                    <a style="text-decoration:none" href="music.html" class="nav-text">Music</a>
-                </li>
-                <li class="col-12 col-md-2 hvr-grow menu-item">
-                    <a style="text-decoration:none" href="events.html" class="nav-text">Events</a>
-                </li>
-                <li class="col-12 col-md-2 hvr-grow menu-item">
-                    <a style="text-decoration:none" href="contact.html" class="nav-text">Contact</a>
-                </li>
-            </ul>
-        </div>
+        
+        <nav class="navbar navbar-expand-sm navbar-light bg-color-nav">
+            <button class="navbar-toggler w-100" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav w-100 justify-content-center">
+                    <li class="nav-item w-100 hvr-grow">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item w-100 hvr-grow">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item w-100 hvr-grow">
+                        <a class="nav-link" href="music.html">Music</a>
+                    </li>
+                    <li class="nav-item w-100 hvr-grow">
+                        <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                    <li class="nav-item w-100 active hvr-grow">
+                        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <section class="container-fluid">

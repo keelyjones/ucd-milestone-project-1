@@ -15,159 +15,184 @@
 .bg-color-footer{
     background-color: #a0b9d3;
 }
-.bg-color-about{
-    background-color: #e6f2ff;
+
+.bg-color-meet{
+    background-color: #cee5e0;
 }
 
 .bg-color-about{
     background-color: #e5fff9;
 }
+
 /*----------------------------------Special Paddings, Margins, Texts*/
 .uppercase{
     text-transform: uppercase;
 }
 
-/*-----------------------------------------------------------Header*/
-header {
-    margin: 0;
+.plain{
+  text-decoration: none !important;
 }
 
-#home {
-    display: inline-block;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+/*-----------------------------------------------------------Header*/
+
+.banner {
+    margin: 0 !important;
+    padding: 0px;
+    border: none;
 }
+
 .heading-text{
     font-family: 'Playfair Display SC', serif;
-    text-align: center;
+    font-size: 5vw;
+    font-weight: 500;
     text-transform: uppercase;
-    font-size: 4vw;
-    font-weight: 600;
+    text-align: center !important;
     white-space: nowrap;
+    display: inline-block;
     margin: auto;
+    padding: 0;
     border: none;
-    padding: 5px;
     color: #ffffff;
     background-color: #000000;
 }
 
+.heading-image {
+    margin: auto;
+    padding: 0;
+}
+
 .logo{
     width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 /*-------------------------------------------------------Navigation*/
 
-#nav {
-    text-align: center;
+.navbar, .navbar-collapse{
+    border: none;
     margin: 0;
-}
-
-#nav li {
     padding: 0;
-    display: inline-block;
 }
 
-#nav li {
+.nav-item {
+    border: none;
+    margin: 0;
     padding: 0;
-    display: inline-block;
-}
-
-.menu-item{
-    height: 35px;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.nav-text {
-    display:block;
-    padding: 2px;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
-    font-size: 20px;
     text-transform: uppercase;
-    color: #000000 !important;
+    text-align: center;
+    color: #000000;
 }
-
-
 
 /*------------------------------------------------------------About--------*/
-.about{
+.about-section{
     display: inline-block;
-}
-.about-title{
-    padding: 5px;
-    text-align: center;
-    white-space: nowrap;
-    font-family: "Raleway", sans-serif;
-    text-transform: uppercase;
-    font-size: xx-large;
-    font-weight: 400;
-    color: #000000
+    padding-bottom: 20px;
 }
 
-.about-subtitle{
+.about-title{
     padding: 5px;
+    margin: 5px;
     text-align: center;
-    white-space: nowrap;
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     font-size: x-large;
     font-weight: 300;
-    color: #000000
+    color: #000000;
 }
-/*------------------------------------------------------------Profiles-----*/
+
+.about-info{
+    padding: 5px;
+    margin: 5px;
+    text-align: left;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    color: #000000;
+    
+}
+
+.blockquote-footer{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+.about-subtitle{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: 300;
+    color: #000000;
+}
+
 
 .profiles{
-    display: inline-block;
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    color: #000000;
 
 }
 
 .kimber, .bergquist, .burch, .tate{
     width: 100%;
     border-radius: 33px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-
 
 
 /*------------------------------------------------------------Events*/
 
 .events{
     margin: 0;
-    padding-top: 5px;
+    padding: 5px 5px 0px 0px;
+    border: 0;
 }
-.events-info{
+
+#events-info{
     font-family: "Raleway", sans-serif;
     text-align: center;
-    display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 2px;
+    margin-left: 2px;
 }
 
 .events-list{
-    padding-bottom: 12px;
-    display: inline-block;
     font-family: "Raleway", sans-serif;
+    padding: 0px 2px 14px 0px;
+    margin: 0;
+    display: inline-block;
+
 }
 
 .event-item{
-    padding-top: 3px;
-    text-align: center;
+    padding: 3px 0px 0px 0px;
     margin: auto;
 }
 .date{
-    margin: 0;
     font-weight: 500;
+    text-align: center;
     text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
 }
 
 .venue{
-    margin: 0;
-    padding: 0;
     text-align: center;
     font-style: italic;
     font-weight: 300;
+    margin: 0;
+    padding: 0;
 }
 
 .btn-info{
@@ -252,36 +277,32 @@ footer{
     color: #FBF8F7;
 }
 
+/*------Media Queries large screens-----*/
 
-/*------Media Queries-----*/
-
-@media(min-width: 767px){ /*large screens*/
+@media(min-width: 767px){
     
-.nav-text {
-        font-size: 12px;
-    }
 .band-image{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
- }
+    }
 
 .mailist-box{
     margin-top: 50px;
-}
+    }
 }
 
-@media(max-width: 767px){ /*small screens*/
+/*------Media Queries Small screens-----*/
+
+@media(max-width: 767px){ 
     
 .band-image{
     width: 100%;
  }
-
-.menu-item {
-        max-height: 22px;
-    }
-    
+.form-style{
+    margin-bottom: 30px;
+}
 #footer-details{
     text-align: center;
  }
