@@ -34,7 +34,7 @@
 }
 
 .thumbnail{
-    display: inline-block
+    display: inline-block;
     max-width: 64px;
     max-height: 64px;
     padding: 4px;
@@ -94,6 +94,7 @@
 }
 
 /*------------------------------------------------------------About--------*/
+. intro
 .about-section{
     display: inline-block;
     padding-bottom: 20px;
