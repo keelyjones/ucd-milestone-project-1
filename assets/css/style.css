@@ -33,6 +33,12 @@
   text-decoration: none !important;
 }
 
+.thumbnail{
+    display: inline-block
+    max-width: 64px;
+    max-height: 64px;
+    padding: 4px;
+}
 /*-----------------------------------------------------------Header*/
 
 .banner {
