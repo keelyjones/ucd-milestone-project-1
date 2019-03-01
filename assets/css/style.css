@@ -33,12 +33,6 @@
   text-decoration: none !important;
 }
 
-.thumbnail{
-    display: inline-block;
-    max-width: 64px;
-    max-height: 64px;
-    padding: 4px;
-}
 /*-----------------------------------------------------------Header*/
 
 .banner {
@@ -92,9 +86,10 @@
     text-align: center;
     color: #000000;
 }
+/*--home-*/
 
 /*------------------------------------------------------------About--------*/
-. intro
+
 .about-section{
     display: inline-block;
     padding-bottom: 20px;
@@ -284,7 +279,6 @@ footer{
 
 /*------Media Queries large screens-----*/
 
-@media(min-width: 767px){
     
 .band-image{
     display: block;
