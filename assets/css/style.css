@@ -17,11 +17,15 @@
 }
 
 .bg-color-meet{
-    background-color: #cee5e0;
+    background-color: #4bc6d0;
 }
 
 .bg-color-about{
-    background-color: #e5fff9;
+    background-color: #CBE0FD;
+}
+
+.font-color-white{
+    color: #ffffff;
 }
 
 /*----------------------------------Special Paddings, Margins, Texts*/
@@ -33,7 +37,22 @@
   text-decoration: none !important;
 }
 
-/*-----------------------------------------------------------Header*/
+.general-text {
+    margin-top: 12px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    padding: 0 10% 0 10%;
+}
+
+
+/*-----------------------------------------------------------Banner*/
+
+.header a{
+    text-decoration: none
+    
+}
 
 .banner {
     margin: 0 !important;
@@ -41,7 +60,7 @@
     border: none;
 }
 
-.heading-text{
+.banner-text{
     font-family: 'Playfair Display SC', serif;
     font-size: 5vw;
     font-weight: 500;
@@ -56,12 +75,12 @@
     background-color: #000000;
 }
 
-.heading-image {
+.banner-image {
     margin: auto;
     padding: 0;
 }
 
-.logo{
+.banner-image img{
     width: 100%;
     min-height: 100%;
     margin: 0;
@@ -73,7 +92,7 @@
 .navbar, .navbar-collapse{
     border: none;
     margin: 0;
-    padding: 0;
+    padding: 0.5rem 0 0.5rem 0;
 }
 
 .nav-item {
@@ -84,9 +103,17 @@
     font-weight: 300;
     text-transform: uppercase;
     text-align: center;
+}
+
+.nav-item a{
+    text-decoration: none;
     color: #000000;
 }
-/*--home-*/
+/*--------------------------------------------------------------Home*/
+
+.newsfeed img {
+    width: 50%;
+}
 
 /*------------------------------------------------------------About--------*/
 
@@ -95,30 +122,13 @@
     padding-bottom: 20px;
 }
 
-.about-title{
-    padding: 5px;
-    margin: 5px;
-    text-align: center;
-    font-family: "Raleway", sans-serif;
-    text-transform: uppercase;
-    font-size: x-large;
-    font-weight: 300;
-    color: #000000;
-}
-
-.about-info{
-    padding: 5px;
-    margin: 5px;
-    text-align: left;
+.blockquote{
+    display: inline-block;
+    font-size: 1rem;
     font-family: "Raleway", sans-serif;
     font-weight: 300;
-    color: #000000;
-    
 }
 
-.blockquote-footer{
-    min-height: 0;
-}
 .about-subtitle{
     padding: 5px;
     margin: 5px;
@@ -138,7 +148,6 @@
     font-family: "Raleway", sans-serif;
     font-weight: 300;
     color: #000000;
-
 }
 
 .kimber, .bergquist, .burch, .tate{
@@ -277,14 +286,19 @@ footer{
     color: #FBF8F7;
 }
 
-/*------Media Queries large screens-----*/
+/*------Media Queries For Desktop/Large screens-----*/
 
-    
+@media(min-width: 768px){ 
+
+.band-image-container{
+    padding-bottom: 20px;    
+}
+
 .band-image{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 60%;
     }
 
 .mailist-box{
@@ -292,16 +306,22 @@ footer{
     }
 }
 
-/*------Media Queries Small screens-----*/
+/*------Media Queries For Mobile/Small screens-----*/
 
-@media(max-width: 767px){ 
-    
+@media(max-width: 768px){ 
+  
+.band-image-container{
+    padding: 0 0 20px 0;
+    margin: 0;
+}
 .band-image{
     width: 100%;
  }
+ 
 .form-style{
     margin-bottom: 30px;
 }
+
 #footer-details{
     text-align: center;
  }

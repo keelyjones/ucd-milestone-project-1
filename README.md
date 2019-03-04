@@ -1,7 +1,7 @@
 # Reverend Blue - Band Website
 #### Project Purpose
 
-The purpose of this website to fulfil the criteria for the or the first Milestone Project in the Code Institude Full-Stack Web Development Course. I have created static (front-end only) website displaying technologies I have learnt throughout the User Centric Frontend Development module of the Code Institute Course.
+The purpose of this website to fulfil the criteria for the or the first Milestone Project in the Code Institute Full-Stack Web Development Course. I have created static (front-end only) website displaying technologies I have learnt throughout the User Centric Frontend Development module of the Code Institute Course.
 I have chosen to adapt the example brief provided, and have instead created a website for the band Reverend Blue.
 
 Reverend Blue is a London based band that plays original music inspired by blues, funk, soul, and rock.
@@ -76,6 +76,7 @@ The website allows the user to:
 
 
 **2)** I have tested all of the internal hyperlinks, to ensure none are broken.
+
 **3)** I have tested the responsive features of the website by checking the website on different screen sizes and by using [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/).
 
 *The website was built to be both user-centric and aesthetically pleasing:*
