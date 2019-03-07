@@ -71,7 +71,7 @@ The website allows the user to:
 
 - *When visting the site from a desktop: pages incorportate aesthetically pleasing layouts (some features running alongside others); images are large and striking; the features of the site are all spaced-out evenly.*
 
-- N.B. I made used of Bootstrap `card` classes (content containers) for the profiles on my about page. The cards span only the height of the content, and therefore were not all equal height.
+**Bug fix:** I made used of Bootstrap `card` classes (content containers) for the profiles on my about page. The cards span only the height of the content, and therefore were not all equal height.
 Thanks to djibe's fix on [StackOverflow](https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns), I was able to make all of the cards the height of the tallest card, whilst still being responsive.
 
 **4)** I have utilised [Cloud9 IDE](http://c9.io/)'s inbuilt [Language Analysis](https://docs.c9.io/docs/language-analysis) feature and [Debugger](https://docs.c9.io/docs/debugging-your-code) to automatically idenfity issues.
@@ -80,13 +80,13 @@ Thanks to djibe's fix on [StackOverflow](https://stackoverflow.com/questions/358
 
 **5)** I have run my code through an HTML validator to check the validity and syntactical correctness of my HTML.
 
-HTML validator brought up some errors, which where mostly small syntactical errors and typos. Some of these are listed below.
+**Bug fix:** HTML validator brought up some errors, which where mostly small syntactical errors and typos. Some of these are listed below.
 - Error 1: 1 In my footer, there were mispelt elements (`<\br>` instead of `<br>`) and an extra `</i>` tag, which was easily rectified.
 - Error 2: In my Newsfeed (`index.html`), `hr` elements are not allowed as a child of `ul` elements. In order to rectify this, I simply changed the instances of `ul` and `li` to `div`.
 - Error 3: The character encoding was not declared. Added `<meta charset="utf-8"/>` to head.
 - Error 4: The scrolling attribute on the iframe element is obsolete. Use CSS instead. I targeted the iframe with `overflow: hidden;` and specified the width within my CSS stylesheet.
 
-HTML Validator Results: "https://html5.validator.nu/?doc=https%3A%2F%2Fkeelyjones.github.io%2Fucd-milestone-project-1%2F#l76c14"
+[Click for HTML Validator Results](https://html5.validator.nu/?doc=https%3A%2F%2Fkeelyjones.github.io%2Fucd-milestone-project-1%2F#l76c14)
 
 ## Deployment
 
@@ -100,13 +100,20 @@ I have deployed my code to Github pages, through the following steps:
 6. Select source drop-down menu to select `master` as your GitHub Pages publishing source.
 7. Click Save.
 
+**Bug fix:** After Deployment I had to change my image file pathways from absolute to relative, as they were not rendering in GitHub pages. I did this by removing the `/` before the link (from `<img src="/assets/images/.....">` to `<img src="assets/images/.....">`)
+
 ---------------------
 ## Credits
 
 #### Content
-- All content is original, adapted from information from the band, with some creative licence.
+All content is original, adapted from information from the band, with some creative licence.
 
 #### Media
-- The photos, videos and audio files used in this site were obtained directly from Reverend Blue, and may not be used without express permission.
+The photos, videos and audio files used in this site were obtained directly from Reverend Blue, and may not be used without express permission.
 
 #### Acknowledgements
+Thanks to my mentor Jim Richmond for all of his help working through this project.
+
+Thanks also to the many contributors to StackOverflow, who's content and suggestions helped me work out tricky corners.
+
+And thanks to Reverend Blue, particularly Dan Tate, who gave me the green light to play around with their content!
