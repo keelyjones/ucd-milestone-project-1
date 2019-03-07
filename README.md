@@ -59,6 +59,7 @@ The website allows the user to:
 ## Technologies Used
 
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) & [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) - This project is executed primarily using **HTML5** and **CSS3**.
+- [Javascript](https://www.javascript.com/) - I have used Javascript
 - [Cloud9 IDE](http://c9.io/) - This website was built using **Cloud9 IDE**, an online integrated development environment developed by AWS.
 - [Bootstrap](http://getbootstrap.com/) - **Bootstrap** is used here to create a simple, responsive structure.
 - [Google Fonts](https://fonts.google.com/) - *Raleway* and *Playfair Display* are imported from **Google Fonts**, a library of 900 libre licensed fonts, with interactive web directory and APIs.
@@ -91,7 +92,10 @@ The website allows the user to:
 
 **5)** I have run my code through an HTML validator to check the validity and syntactical correctness of my HTML
 
-**N.B.** One problem I have come across during my testing is that that certain styles in Bootstrap are difficult to overide, which I've overcome using `!important` tags.
+##### A couple of bug fixes:
+
+I made used of Bootstrap `card` classes (content containers) for the profiles on my about page. The cards span only the height of the content, and therefore were not all equal height.
+Thanks to djibe's fix on [StackOverflow](https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns), I was able to make all of the cards the height of the tallest card, whilst still being responsive.
 
 ## Deployment
 

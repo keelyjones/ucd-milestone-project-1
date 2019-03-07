@@ -1,7 +1,7 @@
-/*-----------------------------------------------------------Fonts*/
+/*-----------------------------------------------------------------------Fonts*/
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700');
 
-/*-----------------------------------------------------------Colors*/
+/*----------------------------------------------------------------------Colors*/
 
 .bg-color-heading{
     background-color: #ffffff;
@@ -24,12 +24,11 @@
     background-color: #CBE0FD;
 }
 
-
 .font-color-white{
     color: #ffffff;
 }
 
-/*----------------------------------Special Paddings, Margins, Texts*/
+/*--------------------------------------------Special Paddings, Margins, Texts*/
 .uppercase{
     text-transform: uppercase;
 }
@@ -42,7 +41,7 @@
     font-family: 'Playfair Display SC', serif;
     font-weight: 300;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     padding: 0.5rem;
     margin: 0;
     text-transform: uppercase;
@@ -50,30 +49,30 @@
 .subheading{ 
     /*--for subheadings--*/
     font-family: "Raleway", sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     text-align: center;
     text-transform: uppercase;
-    font-size: 1.75rem;
+    font-size: 2rem;
     padding: 0.5rem;
     margin: 0;
 }
 .center-text {
     margin-top: 12px;
     font-family: "Raleway", sans-serif;
-    font-weight: 300;
-    font-size: 14px;
+    font-weight: 200;
+    font-size: 1.25rem;
     text-align: center;
 }
 
 .left-text {
     font-family: "Raleway", sans-serif;
-    font-weight: 300;
-    font-size: 14px;
+    font-weight: 200;
+    font-size: 1.25rem;
     text-align: left;
     padding: 0 0 0 5%;
 }
 
-/*-----------------------------------------------------------Banner*/
+/*----------------------------------------------------------------------Banner*/
 
 .header a{
     text-decoration: none
@@ -108,7 +107,7 @@
     padding: 0;
 }
 
-/*-------------------------------------------------------Navigation*/
+/*------------------------------------------------------------------Navigation*/
 
 .navbar, .navbar-collapse{
     border: none;
@@ -128,26 +127,26 @@
     text-decoration: none;
     color: #000000;
 }
-/*--------------------------------------------------------------Home*/
+/*------------------------------------------------------------------------Home*/
+
 .newsfeed {
     display: inline-block;
     padding: 2% 5% 0 5%;
 }
 .newsfeed img {
-    width: 20%;
+    width: 22%;
 }
-.alert-info{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-    text-align: center;
-    margin: 2% 5% 0 5%;
-}
-/*------------------------------------------------------------About--------*/
+
+/*-----------------------------------------------------------------------About*/
 
 .about-section{
     display: inline-block;
     padding-bottom: 20px;
+}
+
+.about-intro{
+    margin-top: 2%;
+    
 }
 
 .blockquote{
@@ -163,30 +162,28 @@
     text-align: center;
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
-    font-size: large;
-    font-weight: 300;
+    font-size: 1.5rem;
+    font-weight: 400;
     color: #000000;
 }
 
-
+.card {
+    margin: 5% 0 10%;
+}
 .profiles{
-    text-align: left;
-    margin: 5px;
-    padding: 5px;
     font-family: "Raleway", sans-serif;
     font-weight: 300;
-    color: #000000;
+    font-size: 1rem;
+    text-align: left;
 }
 
-.kimber, .bergquist, .burch, .tate{
+.card-img-top{
     width: 100%;
-    border-radius: 33px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    height: auto;
 }
 
 
-/*------------------------------------------------------------Events*/
+/*----------------------------------------------------------------------Events*/
 
 .events{
     margin: 0;
@@ -197,6 +194,8 @@
 #events-info{
     font-family: "Raleway", sans-serif;
     text-align: center;
+    font-size: 2rem;
+    font-weight: 200;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-right: 2px;
@@ -205,10 +204,10 @@
 
 .events-list{
     font-family: "Raleway", sans-serif;
+    font-size: 1rem;
     padding: 0px 2px 14px 0px;
     margin: 0;
     display: inline-block;
-
 }
 
 .event-item{
@@ -225,21 +224,24 @@
 }
 
 .venue{
-    text-align: center;
+    text-align: left;
     font-style: italic;
     font-weight: 300;
     margin: 0;
     padding: 0;
 }
 
+.book-button{
+    padding: 0;
+    margin: 0;
+}
 .btn-info{
     text-align: center;
     margin: auto;
     height: 30px;
 }
 
-
-/*------Contact Page-----*/
+/*----------------------------------------------------------------Contact Page*/
 
 .contact-text {
     margin-top: 12px;
@@ -278,17 +280,12 @@
 .subscribe-text{
     color: #856404;
 }
-/*-------------------------------------------------------------Footer */
+/*----------------------------------------------------------------------Footer*/
 
 footer{
     min-height: 120px;
     margin: 0;
     padding-top: 5px;
-}
-
-#footer-details{
-    margin: 20px;
-    padding: 5px 0px 20px 0px;
 }
 
 .general-sub{
@@ -314,18 +311,13 @@ footer{
     color: #FBF8F7;
 }
 
-/*------Media Queries For Desktop/Large screens-----*/
+/*-------------------------------------Media Queries For Desktop/Large screens*/
 
 @media(min-width: 768px){ 
 
-.band-image-container{
-    padding-bottom: 20px;    
-}
-
 .band-image{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 5%;
     width: 60%;
     }
 
@@ -334,18 +326,27 @@ footer{
     }
 }
 
-/*------Media Queries For Mobile/Small screens-----*/
+#footer-details{
+    margin: 20px;
+    padding: 5px 0px 20px 0px;
+}
+
+/*--------------------------------------Media Queries For Mobile/Small screens*/
 
 @media(max-width: 768px){ 
   
-.band-image-container{
-    padding: 0 0 20px 0;
-    margin: 0;
-}
 .band-image{
     width: 100%;
+    margin-bottom: 10%;
+
  }
  
+.date, .venue {
+    font-size: small;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
 .form-style{
     margin-bottom: 30px;
 }

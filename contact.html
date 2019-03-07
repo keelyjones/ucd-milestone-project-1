@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <title>Reverend Blue</title>
 </head>
 
+<!------------------------------------------------------------------------------>
 <body>
     <header>
         <a class="plain" href="index.html">
@@ -21,9 +22,9 @@
                     <img src="/assets/images/ReverendBlueNoText.jpg" alt="RB Logo">
                 </div>
                 <div class="col banner-text">Blue</div>
-            </div>      
+            </div>
         </a>
-        
+<!------------------------------------------------------------------------------>
         <nav class="navbar navbar-expand-sm navbar-light bg-color-nav">
             <button class="navbar-toggler w-100" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -49,61 +50,56 @@
             </div>
         </nav>
     </header>
-
+<!------------------------------------------------------------------------------>
     <section class="container-fluid">
         <div class="row">
             <div class="center-text col-12">
-                <p class="lead">We would love to hear from you!</p>
-                <p>Drop us a line using the form below to enquire about booking Reverend Blue for your events, ticket enquiries, or just to say hello (!) and we will get in touch with you as soon as we can.</p>
+                <p class="subheading">We would love to hear from you!</p>
+                <p class="lead">Drop us a line using the form below to enquire about booking Reverend Blue for your events, ticket enquiries, or just to say hello (!) <br> We will get back in touch with you as soon as we can.</p>
             </div>
         </div>
-        
-    <form class="container-fluid form-style">
-    <div class="row">
-        <div class="col-12 col-md-6 offset-md-1">
-                <div class="form-group uppercase">
-                    <label for="formGroupNameInput">Name:</label>
-                    <input type="text" class="form-control uppercase" id="formNameInput" placeholder="Your Name">
+<!------------------------------------------------------------------------------>
+        <form class="container-fluid form-style">
+            <div class="row">
+                <div class="col-12 col-md-6 offset-md-1">
+                    <div class="form-group uppercase">
+                        <label for="formGroupNameInput">Name:</label>
+                        <input type="text" class="form-control uppercase" id="formNameInput" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label class="uppercase" for="formEmailInput">Email address:</label>
+                        <input type="email" class="form-control uppercase" id="formEmaiInput" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">(We'll never share your email with anyone else.)</small>
+                    </div>
+                    <div class="form-group">
+                        <label class="uppercase" for="inlineFormCustomSelect">Subject:</label>
+                        <select class="custom-select uppercase" id="inlineFormCustomSelect">
+                            <option selected>Select...</option>
+                            <option value="1">Booking Reverend Blue</option>
+                            <option value="2">Ticket Enquiry</option>
+                            <option value="3">Other Enquiry</option>
+                        </select>
+                    </div>
+                    <div class="form-group uppercase">
+                        <label for="formGroupMessage">Message:</label>
+                        <textarea class="form-control uppercase" id="formMessage" rows="8">Your message...</textarea>
+                    </div>
+                    <button type="submit" class="uppercase form-button btn btn-light">Send Message</button>
                 </div>
-                <div class="form-group">
-                    <label class="uppercase" for="formEmailInput">Email address:</label>
-                    <input type="email" class="form-control uppercase" id="formEmaiInput" placeholder="Enter email">
-                    <small id="emailHelp" class="form-text text-muted">(We'll never share your email with anyone else.)</small>
+                <div class="col-12 col-md-4">
+                    <div class="alert alert-warning mailist-box">
+                        <p>Want to subscribe to email updates? Pop your email address in below, and we will keep you up-to-date with news, and get exclusive early-bird access to our events!</p>
+                        <div class="form-group">
+                            <label class="uppercase subscribe-text" for="formEmailInput">Email address:</label>
+                            <input type="email" class="form-control subscribe-text uppercase" id="formEmaiInput" placeholder="Enter email"> <small id="emailHelp" class="form-text subscribe-text">(We'll never share your email with anyone else.)</small>
+                            <button type="submit" class="uppercase btn btn-warning">Subscribe</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label class="uppercase" for="inlineFormCustomSelect">Subject:</label>
-                    <select class="custom-select uppercase" id="inlineFormCustomSelect">
-                        <option selected>Select...</option>
-                        <option value="1">Booking Reverend Blue</option>
-                        <option value="2">Ticket Enquiry</option>
-                        <option value="3">Other Enquiry</option>
-                    </select>
-                </div>
-                <div class="form-group uppercase">
-                    <label for="formGroupMessage">Message:</label>
-                    <textarea class="form-control uppercase" id="formMessage" rows="8">Your message...</textarea>
-                </div>
-                <button type="submit" class="uppercase form-button btn btn-light">Send Message</button>
-        </div>
-        <div class="col-12 col-md-4">
-                <div class="alert alert-warning mailist-box"><p >Want to subscribe to email updates? Pop your email address in below, and we will keep you up-to-date with news, and get exclusive early-bird access to our events!</p>
-                <div class="form-group">
-                    <label class="uppercase subscribe-text" for="formEmailInput">Email address:</label>
-                    <input type="email" class="form-control subscribe-text uppercase" id="formEmaiInput" placeholder="Enter email">
-                    <small id="emailHelp" class="form-text subscribe-text">(We'll never share your email with anyone else.)</small>
-                <button type="submit" class="uppercase btn btn-warning">Subscribe</button>
-                </div>
-                </div>
-        </div>
-
-            
-        </div>
-    </div>
-        
-    </form>
+            </div>
+        </form>
     </section>
-    
-
+<!------------------------------------------------------------------------------>
     <footer class="container-fluid bg-color-footer">
         <div id="footer-details" class="row">
             <div class="col-xs-12 offset-md-2 col-md-4">
