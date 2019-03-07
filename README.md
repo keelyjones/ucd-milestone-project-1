@@ -88,10 +88,15 @@ HTML validator brought up some errors, which where mostly small syntactical erro
 - Error 3: The character encoding was not declared. Added `<meta charset="utf-8"/>` to head.
 - Error 4: The scrolling attribute on the iframe element is obsolete. Use CSS instead. I targeted the iframe with `overflow: hidden;` and specified the width within my CSS stylesheet.
 
+HTML Validator Results: "#"
 
 ## Deployment
 
-Deployed using Github Pages @link
+Deployed using Github Pages.
+- Go to project repo settings on Github
+- Select "master branch" and click save
+- Project link: https://sarahloh.github.io/p1-comeragh-equestrian/
+In order to run this site locally, in your terminal, type or paste; git clone https://github.com/keelyjones/ucd-milestone-project-1
 
 ---------------------
 ## Credits
