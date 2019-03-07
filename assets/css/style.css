@@ -15,18 +15,20 @@
 .bg-color-footer{
     background-color: #a0b9d3;
 }
-
 .bg-color-meet{
     background-color: #4bc6d0;
 }
-
 .bg-color-newsfeed{
-    background-color: #CBE0FD;
+    background-color: #e4effe;
+}
+.bg-color-music{
+    background-color: #021631;
 }
 
 .font-color-white{
     color: #ffffff;
 }
+
 
 /*--------------------------------------------Special Paddings, Margins, Texts*/
 .uppercase{
@@ -182,10 +184,30 @@
     height: auto;
 }
 
+/*-----------------------------------------------------------------------Music*/
+
+.video-content{
+    text-align: center;
+}
+
+.video-content iframe{
+    justify-content: center;
+    width: 90%;
+    min-height: 25vw;
+}
+
+.embedded-tracks{
+    padding-top: 1vw;
+}
+
+.audio-content iframe{
+    width: 100%;
+    padding: 5%;
+}
 
 /*----------------------------------------------------------------------Events*/
 
-.events{
+.events {
     margin: 0;
     padding: 5px 5px 0px 0px;
     border: 0;
