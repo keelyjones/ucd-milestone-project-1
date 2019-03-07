@@ -203,7 +203,8 @@
 }
 
 .embedded-tracks{
-    padding-top: 1vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
 }
 
 .audio-content iframe{
@@ -211,6 +212,12 @@
     height: 166px;
     padding: 5%;
     border: none;
+}
+
+.guitar-image, .amp-image {
+    margin: 5% 10% 5% 10%;
+    width: 80%;
+    filter: grayscale(100%);
 }
 
 /*----------------------------------------------------------------------Events*/
