@@ -5,8 +5,6 @@ The purpose of this website to fulfil the criteria for the or the first Mileston
 I have chosen to adapt the example brief provided, and have instead created a website for the band Reverend Blue.
 
 Reverend Blue is a London based band that plays original music inspired by blues, funk, soul, and rock.
- 
-![Amp Image](https://ucd-milestone-project-1-keelyjones.c9users.io/assets/images/amp.jpg)
 
 ## UX
 
@@ -46,7 +44,7 @@ The website allows the user to:
 ## Technologies Used
 
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) & [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) - This project is executed primarily using **HTML5** and **CSS3**.
-- [Javascript](https://www.javascript.com/) - I have used Javascript
+- [Javascript](https://www.javascript.com/) - I have used Javascript within the Navigation bar
 - [Cloud9 IDE](http://c9.io/) - This website was built using **Cloud9 IDE**, an online integrated development environment developed by AWS.
 - [Bootstrap](http://getbootstrap.com/) - **Bootstrap** is used here to create a simple, responsive structure.
 - [Google Fonts](https://fonts.google.com/) - *Raleway* and *Playfair Display* are imported from **Google Fonts**, a library of 900 libre licensed fonts, with interactive web directory and APIs.
