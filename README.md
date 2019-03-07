@@ -112,8 +112,6 @@ All content is original, adapted from information from the band, with some creat
 The photos, videos and audio files used in this site were obtained directly from Reverend Blue, and may not be used without express permission.
 
 #### Acknowledgements
-Thanks to my mentor Jim Richmond for all of his help working through this project.
-
-Thanks also to the many contributors to StackOverflow, who's content and suggestions helped me work out tricky corners.
-
-And thanks to Reverend Blue, particularly Dan Tate, who gave me the green light to play around with their content!
+- Thanks to my mentor Jim Richmond for all of his help working through this project.
+- Thanks also to the many contributors to StackOverflow, who's content and suggestions helped me work out tricky corners.
+- And of course thanks to Reverend Blue, particularly Dan Tate, who gave me the green light to play around with their content!
