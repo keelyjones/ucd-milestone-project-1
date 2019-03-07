@@ -15,14 +15,18 @@
 .bg-color-footer{
     background-color: #a0b9d3;
 }
-.bg-color-meet{
-    background-color: #4bc6d0;
-}
 .bg-color-newsfeed{
     background-color: #e4effe;
 }
+.bg-color-meet{
+    background-color: #edfbfc;
+}
 .bg-color-music{
     background-color: #021631;
+}
+
+.bg-color-events{
+    background-color: #fcfced;
 }
 
 .font-color-white{
@@ -194,6 +198,8 @@
     justify-content: center;
     width: 90%;
     min-height: 25vw;
+    overflow: hidden;
+    border: none;
 }
 
 .embedded-tracks{
@@ -202,7 +208,9 @@
 
 .audio-content iframe{
     width: 100%;
+    height: 166px;
     padding: 5%;
+    border: none;
 }
 
 /*----------------------------------------------------------------------Events*/

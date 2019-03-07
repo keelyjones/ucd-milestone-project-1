@@ -8,19 +8,6 @@ Reverend Blue is a London based band that plays original music inspired by blues
  
 ![Amp Image](https://ucd-milestone-project-1-keelyjones.c9users.io/assets/images/amp.jpg)
 
-## Project Guidelines
-
-- Create a website of around 4-5 pages, or (if using a single scrolling page) these should be separate page areas.
-- Incorporate main navigation and grid layout (you might want to use Flexbox or Bootstrap to accomplish this).
-- Whenever possible, strive to use semantic HTML5 elements to structure your HTML code better.
-- Make sure your site is as responsive as possible. You can test this by checking the website on different screen sizes and browsers.
-- We advise that you write down user stories and create wireframes/mockups before embarking on full-blown development.
-- The site can also make use of CSS frameworks such as Bootstrap, just make sure you maintain a clear separation between the library code and your code.
-- You should conduct and document tests to ensure that all of your website’s functionality works well.
-- Write a README.md file for your project that explains what the project does and the need that it fulfills. It should also describe the functionality of the project, as well as the technologies used. Detail how the project was deployed and tested and if some of the work was based on other code, explain what was kept and how it was changed to fit your need. A project submitted without a README.md file will FAIL.
-- Use Git & GitHub for version control. Each new piece of functionality should be in a separate commit.
-- Deploy the final version of your code to a hosting platform such as GitHub Pages.
-
 ## UX
 
 The site is targeted at fans of the band Reverend Blue, music-lovers discovering the band, and those interested in booking the band for gigs. I anticiplate users visiting the site though mobile mainly, but also desktop.
@@ -86,16 +73,21 @@ The website allows the user to:
 
 - *When visting the site from a desktop: pages incorportate aesthetically pleasing layouts (some features running alongside others); images are large and striking; the features of the site are all spaced-out evenly.*
 
+- N.B. I made used of Bootstrap `card` classes (content containers) for the profiles on my about page. The cards span only the height of the content, and therefore were not all equal height.
+Thanks to djibe's fix on [StackOverflow](https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns), I was able to make all of the cards the height of the tallest card, whilst still being responsive.
+
 **4)** I have utilised [Cloud9 IDE](http://c9.io/)'s inbuilt [Language Analysis](https://docs.c9.io/docs/language-analysis) feature and [Debugger](https://docs.c9.io/docs/debugging-your-code) to automatically idenfity issues.
 
 *To learn more about these features, click the above hyperlinks to view Cloud9's documentation.*
 
-**5)** I have run my code through an HTML validator to check the validity and syntactical correctness of my HTML
+**5)** I have run my code through an HTML validator to check the validity and syntactical correctness of my HTML.
 
-##### A couple of bug fixes:
+HTML validator brought up some errors, which where mostly small syntactical errors and typos. Some of these are listed below.
+- Error 1: 1 In my footer, there were mispelt elements (`<\br>` instead of `<br>`) and an extra `</i>` tag, which was easily rectified.
+- Error 2: In my Newsfeed (`index.html`), `hr` elements are not allowed as a child of `ul` elements. In order to rectify this, I simply changed the instances of `ul` and `li` to `div`.
+- Error 3: The character encoding was not declared. Added `<meta charset="utf-8"/>` to head.
+- Error 4: The scrolling attribute on the iframe element is obsolete. Use CSS instead. I targeted the iframe with `overflow: hidden;` and specified the width within my CSS stylesheet.
 
-I made used of Bootstrap `card` classes (content containers) for the profiles on my about page. The cards span only the height of the content, and therefore were not all equal height.
-Thanks to djibe's fix on [StackOverflow](https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns), I was able to make all of the cards the height of the tallest card, whilst still being responsive.
 
 ## Deployment
 
