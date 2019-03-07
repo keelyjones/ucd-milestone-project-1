@@ -92,11 +92,7 @@ HTML Validator Results: "#"
 
 ## Deployment
 
-Deployed using Github Pages.
-- Go to project repo settings on Github
-- Select "master branch" and click save
-- Project link: https://sarahloh.github.io/p1-comeragh-equestrian/
-In order to run this site locally, in your terminal, type or paste; git clone https://github.com/keelyjones/ucd-milestone-project-1
+
 
 ---------------------
 ## Credits
@@ -108,5 +104,3 @@ In order to run this site locally, in your terminal, type or paste; git clone ht
 - The photos, videos and audio files used in this site were obtained directly from Reverend Blue, and may not be used without express permission.
 
 #### Acknowledgements
-
-- Inspiration for this website came from the Code Institute tutorials. Thanks to Reverend Blue for allowing me to use their content and media!
