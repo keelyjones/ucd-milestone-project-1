@@ -86,7 +86,7 @@ HTML validator brought up some errors, which where mostly small syntactical erro
 - Error 3: The character encoding was not declared. Added `<meta charset="utf-8"/>` to head.
 - Error 4: The scrolling attribute on the iframe element is obsolete. Use CSS instead. I targeted the iframe with `overflow: hidden;` and specified the width within my CSS stylesheet.
 
-HTML Validator Results: "#"
+HTML Validator Results: "https://html5.validator.nu/?doc=https%3A%2F%2Fkeelyjones.github.io%2Fucd-milestone-project-1%2F#l76c14"
 
 ## Deployment
 
