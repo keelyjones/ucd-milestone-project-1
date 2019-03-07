@@ -92,7 +92,15 @@ HTML Validator Results: "#"
 
 ## Deployment
 
+I have deployed my code to Github pages, through the following steps:
 
+1. Login to Github account. Create 'New Repository'. Named the repository: `ucd-milestone-project-1.git`
+2. Copy the link generated https://github.com/keelyjones/ucd-milestone-project-1.git
+3. Type `git remote add origin https://github.com/keelyjones/ucd-milestone-project-1.git` into command line
+4. Push branch to Github using `git push origin master`
+5. On GitHub, navigate to the new repository. Click `Settings`
+6. Select source drop-down menu to select `master` as your GitHub Pages publishing source.
+7. Click Save.
 
 ---------------------
 ## Credits
