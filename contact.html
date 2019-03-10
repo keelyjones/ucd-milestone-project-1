@@ -15,6 +15,8 @@
 
 <body>
     <header>
+        
+<!-- Banner -->
         <a class="plain" href="index.html">
             <div class="row banner bg-color-black">
                 <div class="col banner-text">Reverend</div>
@@ -24,7 +26,8 @@
                 <div class="col banner-text">Blue</div>
             </div>
         </a>
-
+        
+<!-- Navigation -->
         <nav class="navbar navbar-expand-sm navbar-light bg-color-nav">
             <button class="navbar-toggler w-100" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -52,6 +55,8 @@
     </header>
 
     <section class="container-fluid">
+        
+<!-- Opening text -->
         <div class="row">
             <div class="center-text col-12">
                 <p class="subheading">We would love to hear from you!</p>
@@ -59,21 +64,23 @@
             </div>
         </div>
 
-        <form class="container-fluid form-style">
+<!-- Enquiry form -->
+    <form class="container-fluid form-style">
             <div class="row">
                 <div class="col-12 col-md-6 offset-md-1">
                     <div class="form-group uppercase">
                         <label for="formGroupNameInput">Name:</label>
-                        <input type="text" class="form-control uppercase" id="formNameInput" placeholder="Your Name">
+                        <input type="text" class="form-control uppercase" id="formNameInput" placeholder="Your Name" required>
                     </div>
                     <div class="form-group">
                         <label class="uppercase" for="formEmailInput">Email address:</label>
-                        <input type="email" class="form-control uppercase" id="formEmaiInput" placeholder="Enter email">
+                        <input type="email" class="form-control uppercase" id="formEmaiInput" placeholder="Enter email" required>
+                        
                         <small id="emailHelp" class="form-text text-muted">(We'll never share your email with anyone else.)</small>
                     </div>
                     <div class="form-group">
                         <label class="uppercase" for="inlineFormCustomSelect">Subject:</label>
-                        <select class="custom-select uppercase" id="inlineFormCustomSelect">
+                        <select class="custom-select uppercase" id="inlineFormCustomSelect" required>
                             <option selected>Select...</option>
                             <option value="1">Booking Reverend Blue</option>
                             <option value="2">Ticket Enquiry</option>
@@ -82,10 +89,12 @@
                     </div>
                     <div class="form-group uppercase">
                         <label for="formGroupMessage">Message:</label>
-                        <textarea class="form-control uppercase" id="formMessage" rows="8">Your message...</textarea>
+                        <textarea class="form-control uppercase" id="formMessage" rows="8" placeholder="Your message..." required></textarea>
                     </div>
                     <button type="submit" class="uppercase form-button btn btn-light">Send Message</button>
                 </div>
+                
+<!-- Mailing list box -->
                 <div class="col-12 col-md-4">
                     <div class="alert alert-warning mailist-box">
                         <p>Want to subscribe to email updates? Pop your email address in below, and we will keep you up-to-date with news, and get exclusive early-bird access to our events!</p>
@@ -100,7 +109,9 @@
         </form>
     </section>
 
-    <footer class="container-fluid bg-color-footer">
+   <footer class="container-fluid bg-color-footer">
+        
+<!-- Postal address -->
         <div id="footer-details" class="row">
             <div class="col-xs-12 offset-md-2 col-md-4">
                 <h5 class="uppercase general-sub">Address</h5>
@@ -112,17 +123,19 @@
                     <br/>London, SE1 2YZ
                 </p>
             </div>
+            
+<!-- Social Links -->
             <div class="col-xs-12 col-md-4">
                 <h5 class="uppercase general-sub">
-                    <br/>Follow Us On Social Media</h5>
+                <br/>Follow Us On Social Media</h5>
                 <p class="inline-block footer-text">Keep up to date with Reverend Blue!</p>
                 <div class="row icons w-100">
                     <div class="col-2"><a target="_blank" href="https://www.facebook.com/reverendblue1/" class="hvr-icon-push"><i class="icon-style fab fa-facebook-square hvr-icon"></i></a></div>
-                    <div class="col-2"><a target="_blank" href="#" class="hvr-icon-push"><i class="icon-style fab fa-twitter hvr-icon"></i></a></div>
+                    <div class="col-2"><a target="_blank" href="https://twitter.com/" class="hvr-icon-push"><i class="icon-style fab fa-twitter hvr-icon"></i></a></div>
                     <div class="col-2"><a target="_blank" href="https://youtu.be/JvEhUPdv5Y4" class="hvr-icon-push"><i class="icon-style fab fa-youtube hvr-icon"></i></a></div>
-                    <div class="col-2"><a target="_blank" href="#" class="hvr-icon-push"><i class="icon-style fab fa-pinterest hvr-icon"></i></a></div>
-                    <div class="col-2"><a target="_blank" href="#" class="hvr-icon-push"><i class="icon-style fab fa-linkedin hvr-icon"></i></a></div>
-                    <div class="col-2"><a target="_blank" href="#" class="hvr-icon-push"><i class="icon-style fab fa-instagram hvr-icon"></i></a></div>
+                    <div class="col-2"><a target="_blank" href="https://www.pinterest.co.uk/" class="hvr-icon-push"><i class="icon-style fab fa-pinterest hvr-icon"></i></a></div>
+                    <div class="col-2"><a target="_blank" href="https://www.linkedin.com/" class="hvr-icon-push"><i class="icon-style fab fa-linkedin hvr-icon"></i></a></div>
+                    <div class="col-2"><a target="_blank" href="https://www.instagram.com/?hl=en" class="hvr-icon-push"><i class="icon-style fab fa-instagram hvr-icon"></i></a></div>
                 </div>
             </div>
         </div>
