@@ -1,4 +1,7 @@
 # Reverend Blue - Band Website
+
+https://keelyjones.github.io/ucd-milestone-project-1/
+
 #### Project Purpose
 
 The purpose of this website to fulfil the criteria for the or the first Milestone Project in the Code Institute Full-Stack Web Development Course. I have created static (front-end only) website displaying technologies I have learnt throughout the User Centric Frontend Development module of the Code Institute Course.
@@ -44,12 +47,12 @@ The website allows the user to:
 ## Technologies Used
 
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) & [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) - This project is executed primarily using **HTML5** and **CSS3**.
-- [Javascript](https://www.javascript.com/) - I have used Javascript within the Navigation bar
+- [Javascript](https://www.javascript.com/) - I have used Bootstrap's in-house Javascript within the Navigation bar, to enable the 'collapse' funtion.
 - [Cloud9 IDE](http://c9.io/) - This website was built using **Cloud9 IDE**, an online integrated development environment developed by AWS.
-- [Bootstrap](http://getbootstrap.com/) - **Bootstrap** is used here to create a simple, responsive structure.
+- [Bootstrap](http://getbootstrap.com/) - **Bootstrap (v.4)** is used here to create a simple, responsive structure.
 - [Google Fonts](https://fonts.google.com/) - *Raleway* and *Playfair Display* are imported from **Google Fonts**, a library of 900 libre licensed fonts, with interactive web directory and APIs.
-- [Font Awesome](https://fontawesome.com/) - **Font Awesome** (CSS/LESS icon toolkit) used for the social media icons.
-- [Hover.css](http://ianlunn.github.io/Hover/) - Hover effects for Nav bar are imported from from **Hover.css**, a collection of CSS3 powered hover effects.
+- [Font Awesome](https://fontawesome.com/) - **Font Awesome (v.5)** (CSS/LESS icon toolkit) used for the social media icons.
+- [Hover.css](http://ianlunn.github.io/Hover/) - Hover effects for Nav bar are imported from from **Hover.css (v.2)**, a collection of CSS3 powered hover effects.
 
 ---------------------
 ## Testing
@@ -88,6 +91,9 @@ Thanks to djibe's fix on [StackOverflow](https://stackoverflow.com/questions/358
 
 [Click for HTML Validator Results](https://html5.validator.nu/?doc=https%3A%2F%2Fkeelyjones.github.io%2Fucd-milestone-project-1%2F#l76c14)
 
+**6)** I have ensure all my images maintain their aspect ratio, and load correctly. After Deployment, the images were not rendering in GitHub pages.
+**Bug fix:** I had to change my image file pathways from absolute to relative. I did this by removing the `/` before the link (from `<img src="/assets/images/.....">` to `<img src="assets/images/.....">`)
+
 ## Deployment
 
 I have deployed my code to Github pages, through the following steps:
@@ -99,8 +105,6 @@ I have deployed my code to Github pages, through the following steps:
 5. On GitHub, navigate to the new repository. Click `Settings`
 6. Select source drop-down menu to select `master` as your GitHub Pages publishing source.
 7. Click Save.
-
-**Bug fix:** After Deployment I had to change my image file pathways from absolute to relative, as they were not rendering in GitHub pages. I did this by removing the `/` before the link (from `<img src="/assets/images/.....">` to `<img src="assets/images/.....">`)
 
 ---------------------
 ## Credits
