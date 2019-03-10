@@ -11,7 +11,7 @@ Reverend Blue is a London based band that plays original music inspired by blues
 
 ## UX
 
-The site is targeted at fans of the band Reverend Blue, music-lovers discovering the band, and those interested in booking the band for gigs. I anticiplate users visiting the site though mobile mainly, but also desktop.
+The site is targeted at fans of the band Reverend Blue, music-lovers discovering the band, and those interested in booking the band for gigs. I anticipate users visiting the site though mobile mainly, but also desktop.
 
 #### User Stories
 > As an individual just discovering the band, I would like to be able to learn more about the members and the music they make. I want to be able to listen to RB's music from the website, watch videos, and to be able to download tracks.
@@ -22,7 +22,7 @@ The site is targeted at fans of the band Reverend Blue, music-lovers discovering
 >
 > As a mobile user, I want to be able to scroll through the content easily, without the need to zoom in and out.
 >
-> As a desktop user, I want to see asthetically pleasing content, with lots of images.
+> As a desktop user, I want to see aesthetically pleasing content, with lots of images.
 
 #### Design Process
 This wireframe maps out my initial ideas and design process: [MockFlow Wireframe](https://wireframepro.mockflow.com/view/M4532df4913ed1f6161b71fee797dafb71547727432927#/page/74c6bb192bf4439f9137bca0833f3745)
@@ -47,7 +47,7 @@ The website allows the user to:
 ## Technologies Used
 
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) & [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) - This project is executed primarily using **HTML5** and **CSS3**.
-- [Javascript](https://www.javascript.com/) - I have used Bootstrap's in-house Javascript within the Navigation bar, to enable the 'collapse' funtion.
+- [Javascript](https://www.javascript.com/) - I have used Bootstrap's in-house Javascript within the Navigation bar, to enable the 'collapse' function.
 - [Cloud9 IDE](http://c9.io/) - This website was built using **Cloud9 IDE**, an online integrated development environment developed by AWS.
 - [Bootstrap](http://getbootstrap.com/) - **Bootstrap (v.4)** is used here to create a simple, responsive structure.
 - [Google Fonts](https://fonts.google.com/) - *Raleway* and *Playfair Display* are imported from **Google Fonts**, a library of 900 libre licensed fonts, with interactive web directory and APIs.
@@ -72,19 +72,19 @@ The website allows the user to:
 
 - *When viewing on mobile devices or small screens: pages span one column only to enable easy scrolling; fonts are large enough to view clearly; all icons/buttons are large enough to click easily.*
 
-- *When visting the site from a desktop: pages incorportate aesthetically pleasing layouts (some features running alongside others); images are large and striking; the features of the site are all spaced-out evenly.*
+- *When visting the site from a desktop: pages incorporate aesthetically pleasing layouts (some features running alongside others); images are large and striking; the features of the site are all spaced-out evenly.*
 
 **Bug fix:** I made used of Bootstrap `card` classes (content containers) for the profiles on my about page. The cards span only the height of the content, and therefore were not all equal height.
 Thanks to djibe's fix on [StackOverflow](https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns), I was able to make all of the cards the height of the tallest card, whilst still being responsive.
 
-**4)** I have utilised [Cloud9 IDE](http://c9.io/)'s inbuilt [Language Analysis](https://docs.c9.io/docs/language-analysis) feature and [Debugger](https://docs.c9.io/docs/debugging-your-code) to automatically idenfity issues.
+**4)** I have utilised [Cloud9 IDE](http://c9.io/)'s inbuilt [Language Analysis](https://docs.c9.io/docs/language-analysis) feature and [Debugger](https://docs.c9.io/docs/debugging-your-code) to automatically identify issues.
 
 *To learn more about these features, click the above hyperlinks to view Cloud9's documentation.*
 
 **5)** I have run my code through an HTML validator to check the validity and syntactical correctness of my HTML.
 
 **Bug fix:** HTML validator brought up some errors, which where mostly small syntactical errors and typos. Some of these are listed below.
-- Error 1: 1 In my footer, there were mispelt elements (`<\br>` instead of `<br>`) and an extra `</i>` tag, which was easily rectified.
+- Error 1: 1 In my footer, there were misspelt elements (`<\br>` instead of `<br>`) and an extra `</i>` tag, which was easily rectified.
 - Error 2: In my Newsfeed (`index.html`), `hr` elements are not allowed as a child of `ul` elements. In order to rectify this, I simply changed the instances of `ul` and `li` to `div`.
 - Error 3: The character encoding was not declared. Added `<meta charset="utf-8"/>` to head.
 - Error 4: The scrolling attribute on the iframe element is obsolete. Use CSS instead. I targeted the iframe with `overflow: hidden;` and specified the width within my CSS stylesheet.
