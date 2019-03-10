@@ -81,7 +81,9 @@ Thanks to djibe's fix on [StackOverflow](https://stackoverflow.com/questions/358
 
 *To learn more about these features, click the above hyperlinks to view Cloud9's documentation.*
 
-**5)** I have run my code through an HTML validator to check the validity and syntactical correctness of my HTML.
+**5)** I have run my CSS through the official (Jigsaw) validator, which as returned with zero issues.
+
+(In order to validate *my internal* CSS stylesheet, copy the CSS text directly into the 'input' field of the validator [to validate by input click here](https://jigsaw.w3.org/css-validator/#validate_by_input), in order for the *external* imported CSS style sheets do not interfere with/effect the validation.
 
 **Bug fix:** HTML validator brought up some errors, which where mostly small syntactical errors and typos. Some of these are listed below.
 - Error 1: 1 In my footer, there were misspelt elements (`<\br>` instead of `<br>`) and an extra `</i>` tag, which was easily rectified.
@@ -91,7 +93,9 @@ Thanks to djibe's fix on [StackOverflow](https://stackoverflow.com/questions/358
 
 [Click for HTML Validator Results](https://html5.validator.nu/?doc=https%3A%2F%2Fkeelyjones.github.io%2Fucd-milestone-project-1%2F#l76c14)
 
-**6)** I have ensure all my images maintain their aspect ratio, and load correctly. After Deployment, the images were not rendering in GitHub pages.
+**6)**
+
+**7)** I have ensure all my images maintain their aspect ratio, and load correctly. After Deployment, the images were not rendering in GitHub pages.
 **Bug fix:** I had to change my image file pathways from absolute to relative. I did this by removing the `/` before the link (from `<img src="/assets/images/.....">` to `<img src="assets/images/.....">`)
 
 ## Deployment
